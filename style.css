@@ -1,0 +1,95 @@
+body
+{
+    background-size:cover;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #bb533b 0%, #c4bb45  51%, #bb533b  100%);
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: rgb(148, 71, 36);            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+           
+  .btn-grad2 {
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+    margin: 30px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    width:500px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .btn-grad2:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+ 
+  .heading
+  {
+    font-size:45px;
+    width:100%;
+    margin:0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .note
+  {
+    font-size:22px;
+    color:black;
+  }
+
+  canvas
+  {
+    border: 5px solid rgb(88, 130, 130);
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example
+  {
+    from{
+      box-shadow: 10px 10px 15px rgb(171, 227, 107); 
+    }
+
+    25%{
+      box-shadow: -10px -10px 15px rgb(117, 117, 255);
+    }
+
+    50%
+    {
+      box-shadow: 10px 10px 15px rgb(171, 227, 107); 
+    }
+
+    75%{
+      box-shadow: -10px -10px 15px rgb(117, 117, 255);
+    }
+
+    to{
+      box-shadow: 10px 10px 15px rgb(171, 227, 107);
+    }
+  }
